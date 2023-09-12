@@ -7,7 +7,6 @@ async function extractAllVisitors() {
     cache: "no-store",
   });
   
-
   const data = await res.json();
 
   return data;
